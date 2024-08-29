@@ -1,0 +1,67 @@
+.lgcBackground {
+	background-attachment: fixed;
+	background-color: #000000;
+	background-repeat: repeat-x;
+	background-position: center top;
+	background-image: url(../images/lgctile.gif);
+}
+.LGCbodyText {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 18px;
+	font-style: normal;
+	line-height: 26px;
+	font-weight: normal;
+	color: #333333;
+	text-align: justify;
+	padding: 15px;
+}
+.lowerBoxTestamonial {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: medium;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	line-height: 24px;
+}
+.smallBoxes {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	line-height: 18px;
+	font-weight: normal;
+	font-variant: normal;
+	color: #333333;
+	text-align: justify;
+	padding: 15px;
+}
+.smallBoxes2white {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: medium;
+	color: #FFFFFF;
+	padding: 15px;
+	border: #FFFFFF;
+	text-align: center;
+	line-height: 16px;
+	font-style: normal;
+	font-weight: normal;
+}
+.tablePads {
+	margin: 10px;
+}
+.servicesCAPS {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 24px;
+	line-height: 24px;
+	font-weight: normal;
+	font-variant: small-caps;
+	color: #660000;
+	text-align: left;
+}
+.LGCmediumText {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: medium;
+	text-align: left;
+	line-height: 18px;
+	font-style: normal;
+	font-weight: normal;
+}

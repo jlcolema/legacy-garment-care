@@ -1,0 +1,56 @@
+/* Imported Stylesheets */
+
+@import url("reset.css");
+@import url("typography.css");
+
+/* Typography in Use
+
+	Add typography choices here.
+
+******************* */
+
+body {
+	color: #c9b064;
+	background: #000 url(../media/background.gif) top left repeat-x;
+	}
+
+	a { color: #c9b064; }
+
+	h1 { text-indent: -9999px; }
+
+		h1 a {
+			display: block;
+			width: 300px;
+			height: 207px;
+			margin: 100px auto 25px auto;
+			background: url(../media/logo.png) no-repeat;
+			}
+
+	p#banner {
+		width: 297px;
+		height: 80px;
+		margin: 0 auto;
+		text-indent: -9999px;
+		background: url(../media/banner.png) no-repeat;
+		}
+
+	ul {
+		margin: 50px 0 0 0;
+		padding: 0;
+		-webkit-padding-start: 0;
+		text-align: center;
+		}
+
+		li {
+			display: inline;
+			list-style-type: none;
+			margin-right: 5px;
+			}
+
+	p#green-earth {
+		width: 150px;
+		height: 33px;
+		margin: 50px auto;
+		text-indent: -9999px;
+		background: url(../media/green-earth-cleaning.png) no-repeat;
+		}

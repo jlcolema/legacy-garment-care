@@ -1,0 +1,462 @@
+/* Imported Stylesheets */
+
+@import url("reset.css");
+
+
+
+body {
+	background: rgb(0, 0, 0) url(../media/background.png) top center repeat-y;
+	}
+
+a { text-decoration: none; }
+
+#page {
+	position: relative;
+	width: 950px;
+	height: 100%;
+	margin: 0 auto;
+	background: rgb(200, 200, 200);
+	}
+
+	/* Header */
+
+	#header {
+		position: fixed;
+		float: left;
+		display: inline;
+		width: 230px;
+		margin: 50px 0 0 70px;
+		padding: 0 0 25px 0;
+		color: rgb(255, 255, 255);
+		background: rgb(38, 33, 34);
+		text-align: center;
+		font-family: Georgia, Times, 'Times New Roman', serif;
+		-webkit-border-top-left-radius: 25px;
+		-webkit-border-bottom-left-radius: 25px;
+		-moz-border-radius-topleft: 25px;
+		-moz-border-radius-bottomleft: 25px;
+		border-top-left-radius: 25px;
+		border-bottom-left-radius: 25px;
+		}
+
+		.move { display: none; }
+
+		h1 {
+			margin: 30px 0 0 0;
+			text-indent: -9999px;
+			}
+
+			h1 a {
+				display: block;
+				width: 230px;
+				height: 150px;
+				color: rgb(255, 255, 255);
+				text-align: center;
+				background: url(../media/logo.png);
+				}
+
+			h1 a:hover {}
+
+		#navigation {
+			padding: 15px 0 25px 0;
+			}
+
+			#navigation li {}
+
+				#navigation li a {
+					display: block;
+					width: 230px;
+					height: 38px;
+					padding: 12px 0 0 0;
+					color: rgb(255, 255, 255);
+					text-align: center;
+					font-size: 22px;
+					}
+
+				#navigation li a:hover {
+					background: url(../media/hover.png);
+					}
+
+				.home #navigation li#home a,
+				.about #navigation li#about a,
+				.services #navigation li#services a,
+				.locations #navigation li#locations a,
+				.contact #navigation li#contact a {
+					position: relative;
+					left: -20px;
+					padding-left: 20px;
+					color: rgb(203, 179, 92);
+					background: url(../media/current.png);
+					text-shadow: rgb(0, 0, 0) 0 1px 1px;
+					}
+
+		#associations { display: none; }
+
+			#associations li#green-earth-cleaning {
+				text-indent: -9999px;
+				}
+
+				#associations li#green-earth-cleaning a {
+					display: block;
+					width: 150px;
+					height: 33px;
+					margin: 0 auto;
+					color: rgb(255, 255, 255);
+					background: url(../media/green-earth-cleaning.png);
+					}
+
+					#associations li#green-earth-cleaning a:hover {}
+
+			#associations li#nca { display: none; }
+
+				#associations li#nca a {
+					color: rgb(255, 255, 255);
+					}
+
+					#associations li#nca a:hover {}
+
+		#twitter {
+			padding: 25px 0 25px 0;
+			}
+
+			#twitter h3 {
+				text-indent: -9999px;
+				}
+
+				#twitter h3 a {
+					display: block;
+					width: 160px;
+					height: 30px;
+					margin: 0 auto;
+					background: url(../media/twitter.png);
+					}
+
+				#twitter h3 a:hover {
+					background-position: bottom left;
+					}
+
+			#tweets {
+				font-size: 12px;
+				line-height: 17px;
+				padding: 10px 30px 0 30px;
+				text-align: left;
+				}
+
+				.tweet {}
+
+			#twitter p.more {
+				font-size: 11px;
+				text-align: right;
+				margin-right: 35px;
+				letter-spacing: 1px;
+				text-transform: uppercase;
+				}
+
+				#twitter p.more a {
+					height: 17px;
+					float: right;
+					text-align: center;
+					display: block;
+					padding: 5px 10px 0 10px;
+					color: rgb(255, 255, 255);
+					background: rgba(0, 0, 0, .15);
+					-webkit-border-radius: 10px;
+					-moz-border-radius: 10px;
+					border-bottom: 1px solid rgba(255, 255, 255, .15);
+					}
+
+				#twitter p.more a:hover {
+					color: rgba(255, 255, 255, .75);
+					}
+
+		#facebook {
+			display: none;
+			margin: 0 10px 0 10px;
+			padding: 25px 0 25px 0;
+			text-indent: -9999px;
+			background: url(../media/dash.png) repeat-x;
+			}
+
+			#facebook a {
+				display: block;
+				width: 160px;
+				height: 30px;
+				margin: 0 auto;
+				background: url(../media/facebook.png);
+				}
+
+			#facebook a:hover {
+				background-position: bottom left;
+				}
+
+	/* Body */
+
+	#body {
+		position: relative;
+		float: right;
+		display: inline;
+		width: 425px;
+		padding: 200px 150px 0 75px;
+		color: rgb(33, 33, 33);
+		background: url(../media/body-background.png);
+		font-size: 14px;
+		line-height: 23px;
+		font-family: Helvetica, Arial, sans-serif;
+		}
+
+	.contact #body {
+		height: 900px;
+		}
+
+		h2 {
+			padding: 0 0 14px 0;
+			font-size: 24px;
+			font-family: Georgia, Times, 'Times New Roman', serif;
+			color: rgb(114, 18, 33);
+			text-shadow: #dbdacf 0 1px 1px;
+			}
+
+		#body p {
+			padding: 0 0 10px 0;
+			text-shadow: #dbdacf 0 1px 1px;
+			}
+
+			#body p a {
+				color: rgb(33, 33, 33);
+				border-bottom: 1px solid rgb(33, 33, 33);
+				}
+
+			#body p a:hover {
+				color: rgb(107, 32, 36);
+				border-bottom: 1px solid rgb(107, 32, 36);
+				}
+
+		#body p#thanks {
+			position: absolute;
+			top: 75px;
+			right: 25px;
+			width: 196px;
+			height: 171px;
+			padding: 0;
+			text-indent: -9999px;
+			background: url(../media/well-be-in-touch.png);
+			}
+
+		#body img#map {
+			position: relative;
+			float: right;
+			bottom: 150px;
+			left: 125px;
+			margin: 0 0 -175px -125px;
+			}
+
+		#body p#contact-us {
+			position: absolute;
+			top: 10px;
+			right: 90px;
+			padding: 0;
+			text-indent: -9999px;
+			}
+
+			#body p#contact-us a {
+				display: block;
+				width: 104px;
+				height: 23px;
+				background: url(../media/contact-us.png);
+				border: none;
+				}
+
+		#body p#call-today {
+			position: absolute;
+			top: 12px;
+			left: 75px;
+			padding: 0;
+			}
+
+		#locations {}
+
+			.location {
+				position: relative;
+				padding: 15px 0 15px 0;
+				border-top: 1px dashed rgba(255, 255, 255, .5);
+				border-bottom: 1px dashed rgba(0, 0, 0, .35);
+				text-shadow: 0 1px 1px rgba(255, 255, 255, .75);
+				overflow: hidden;
+				}
+
+			.location:hover {
+				background: rgba(151, 133, 75, .50) url(../media/location-highlight.png) center left;
+				text-shadow: 0 1px 1px rgba(255, 255, 255, .5);
+				}
+
+			.location:first-child {
+				border-top: none;
+				}
+
+			.location:last-child {
+				border-bottom: none;
+				}
+
+				.location a {
+					position: absolute;
+					top: 0;
+					left: 0;
+					width: 100%;
+					height: 100%;
+					}
+
+					.location a img {
+						float: left;
+						display: inline;
+						width: 60px;
+						height: 60px;
+						margin: 15px 15px 0 15px;
+						background: rgb(200, 200, 200);
+						border: 5px solid rgb(255, 255, 255);
+						-webkit-box-shadow: rgb(0, 0, 0) 0px 0px 2px;
+						}
+
+					.location a:hover img {
+						border: 5px solid rgb(203, 178, 102);
+						}
+
+				#body p.address {
+					float: left;
+					display: inline;
+					width: 175px;
+					margin: 0 15px 0 100px;
+					text-shadow: 0 1px 1px rgba(255, 255, 255, .75);
+					padding: 0;
+					}
+
+					.address strong {
+						font-weight: 700;
+						}
+
+				.hours {
+					float: left;
+					display: inline;
+					width: 100px;
+					padding: 0 0 0 15px;
+					border-left: 1px solid rgba(0, 0, 0, .25);
+					}
+
+					.hours li {}
+
+						.hours li em {}
+
+		.services {}
+
+			.service {
+				padding: 15px 0 15px 0;
+				border-bottom: 1px dashed rgb(111, 111, 94);
+				text-shadow: #dbdacf 0 1px 1px;
+				overflow: hidden;
+				}
+
+			.service:last-child {
+				border-bottom: none;
+				}
+
+				.service h3 {
+					font-weight: 700;
+					}
+
+				#body .service p {
+					padding: 0;
+					}
+
+			form {
+				font-family: Helvetica, Arial, sans-serif;
+				}
+
+				form ol {}
+
+					form ol li {
+						margin-bottom: 10px;
+						}
+
+					form ol li#newsletter {
+						position: relative;
+						margin: 25px 0 20px 0;
+						padding: 5px 10px 5px 35px;
+						border-top: 1px dashed rgb(111, 111, 94);
+						border-bottom: 1px dashed rgb(111, 111, 94);
+						text-shadow: #dbdacf 0 1px 1px;
+						background: rgba(166, 163, 131, .5);
+						font-family: Georgia, Times, 'Times New Roman', serif;
+						line-height: 19px;
+						overflow: hidden;
+						}
+
+						form ol li label {
+							display: block;
+							}
+
+						form ol li input {
+							width: 420px;
+							height: 20px;
+							}
+
+						form ol li#newsletter input {
+							width: auto;
+							}
+
+						form ol li input:focus,
+						form ol li textarea:focus {
+							background: rgb(250, 248, 242);
+							}
+
+						input#submit {
+							border: none;
+							padding: 5px 7px 5px 10px;
+							background: rgba(149, 127, 61, .65);
+							border-radius: 15px;
+							-moz-border-radius: 15px;
+							border: 1px solid rgba(0, 0, 0, .15);
+							-webkit-box-shadow: 0 1px 1px rgba(255, 255, 255, .5);
+							-moz-box-shadow: 0 1px 1px rgba(255, 255, 255, .5);
+							}
+
+							input#submit:hover {
+								cursor: pointer;
+								background: rgba(149, 127, 61, .75);
+								}
+
+						form ol li#phone-number input#area-code {
+							display: inline;
+							width: 50px;
+							}
+
+						form ol li#phone-number input#prefix {
+							display: inline;
+							width: 50px;
+							}
+
+						form ol li#phone-number input#suffix {
+							display: inline;
+							width: 100px;
+							}
+
+							form ol li label input {
+								position: absolute;
+								top: 5px;
+								left: 8px;
+								float: left;
+								display: inline;
+								padding: 0 10px 10px 0;
+								background: pink;
+								}
+
+						form ol li textarea {
+							width: 405px;
+							max-width: 405px;
+							padding: 10px;
+							height: 200px;
+							}
+
+	/* Footer */
+
+	#footer {
+		padding: 50px 0 50px 0;
+		}
